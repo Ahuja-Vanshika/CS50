@@ -1,0 +1,20 @@
+These steps are going to be followed to characterize a listener’s audio aura depending on the listener’s top 100 songs
+from the year 2018 through the mean energy, valence, and danceability:
+
+* Data Extraction: Extract from songs.db attributes that are relevant (energy, valence, danceability).
+* Averaging: Compute mean values of energy, valence and danceability of these 100songs.
+* Categorization: Use these average values to illustrate the most outstanding moods of the listener.
+
+Hypothesis on Representation Reasons why this may not be very representative:
+
+* Music preference can alter over time and by individual Taste fluctuates width season,
+mean not capturing the changes in mood or state might also affect the type of music listened to
+(e.g., gym or afternoon nap) and hence the average values tend to mask such idiolect within these figures.
+
+Proposed improvements Weighted averages:
+
+* Let's think about weighting these features according to how often songs are listened to.
+A song that is played more often needs to have larger impact on the genres.
+Temporal analysis: It could be beneficial if we split our study into shorter time spans such as months or quarters
+in order to catch up with different music tastes that occur over a period.
+Thus it will be able to show changing patterns or feelings during seasons.
