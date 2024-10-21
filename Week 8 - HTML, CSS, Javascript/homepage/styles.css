@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.para {
+    color: whitesmoke;
+}
+
+hr {
+    border: 1px solid whitesmoke;
+    margin: 10px 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    color: #007bff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form .form-control {
+    margin-bottom: 10px;
+}
