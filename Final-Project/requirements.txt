@@ -1,0 +1,5 @@
+The modules needed to make this virtual calculator is:
+
+opencv
+cvzone
+mediapipe
